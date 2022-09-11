@@ -1,60 +1,108 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <title>equipos</title>
+   <link rel="stylesheet" href="../styles/styles.css">
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>xavier anzola</title>
 </head>
+<body class="container-fluid">
 
-<body class="body">
-    <header class="header">
+  
         
-        <a class="header_logo" id="logo de la pagina" href="../index.html">
-            <img src="../images/logo.png" alt="logo de la pagina" width="60" height="60">
+      <!-- INICIO DE HEADER -->
+      <section class=" row header ">
+      
+        <header class="header col-sd-6 col-md-8 text-center">
+        <a class=" header_logo" id="logo de la pagina" href="../index.html">
+            <img src="../images/logo.png" alt="logo de la pagina"    width="50px"    height="50px" >
         </a>
-        <h1 class="header_titulo">Xavier Anzola</h1>
-        <nav class="header_nav">
-            <ul class="header_links">
-                <li><a href="../index.html">index</a></li>
-                <li><a href="../paginas/galeria.html">galeria</a></li>
-                <li><a href="../paginas/contacto.html">contacto</a></li>
-                <li><a href="../paginas/equipos.html">equipos</a></li>
-                <li><a href="../paginas/sobre mi.html">sobre mi</a></li>
-            </ul>
-            
-        </nav>
-    </header>
+    
+        <h1 class=" header_titulo">Xavier Anzola</h1>
+        </header>
+        <nav class="navbar navbar-expand-md  col-sd-6 col-md-4 text-center">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav_letra nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../paginas/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/equipos.html">equipos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/sobre mi.html">sobre mi</a>
+            </li>
+          </ul>
+       </div>
+      </nav>
+      <!-- FIN DE NAV -->
+  
+  </section>
+  <!-- FIN DE FILA -->
 
-    <main>
+    
+
+    <!-----------------------------------fin de header----------------------------------->
+
+    <main class="container-fluid">
         
-        <div class="equipos">
+      
+
+
+        <section class="row">
+            <section class="row"> <h1 class="equipos_titulo col-md-2 col-sd-12">camara</h1></section>
+            
+            
+            <img
+              class="equipos_imagenes col-md-2 col-sd-12"
+              src="../images/equipos/camara.jpg"
+              alt="camara"/>
+            
+          
+            <p id="equipo_descripciones_id " class="equipos_descripciones_camara col-md-8 col-sd-12">
+              Nikon D3500El obturador tiene una velocidad máxima de: 1/4000 s. Pantalla de
+              3 ". Al tener enfoque manual esta cámara captura más detalles en las
+              fotografías. Con modo autofoco. Tiene flash incorporado.
+            </p>
+        
+
+          </section>
 
 
 
-            <section   class="equipos_camara">
-                <div    class="equipo_titulo_img">  
-                <h1 class="equipos_titulo">camara</h1>
-                <img   class="equipos_imagenes" src="../images/equipos/camara.jpg" alt="camara">
-            </div>
-                <p  id="equipo_descripciones_id" class="equipos_descripciones_camara" > 
-                    Nikon D3500El obturador tiene una velocidad máxima de: 1/4000 s.  
-                    Pantalla de 3 ".   
-                    Al tener enfoque manual esta cámara captura más detalles en las fotografías.   
-                    Con modo autofoco. 
-                    Tiene flash incorporado.</p>
-            </section>
 
 
 
-            <section class="equipos_laptop">
-                <div    class="equipo_titulo_img"> 
-                <h1    class="equipos_titulo">Laptop</h1>
-                <img   class="equipos_imagenes" src="../images/equipos/laptop.jpg" alt="laptop">
+
+            <section class="equipos_laptop row">
+                <section class="row"> <h1    class="equipos_titulo col-md-2 col-sd-12">Laptop</h1></section>
+    
+               
+                <img   class="equipos_imagenes col-md-2 col-sd-12" src="../images/equipos/laptop.jpg" alt="laptop">
                 
-                </div>
-               <p>Apple MacBook Pro
+    
+               <p class="col-md-8 col-sd-12 equipo_descripciones_laptop">Apple MacBook Pro
                 chip Apple M1 Pro para alcanzar un nuevo nivel de rendimiento
                 de CPU, GPU
                 CPU de hasta 10 núcleos que ofrece un rendimiento hasta 2 veces más rápido para 
@@ -64,57 +112,66 @@
             </section>
 
 
-            <section    class="equipos_luces">
-                <div    class="equipo_titulo_img"> 
-                <h1 class="equipos_titulo">Luces</h1>
-                <img   class="equipos_imagenes" src="../images/equipos/luz" alt="luz">
-                </div>
-                <p>Kit 2 Luz Continua Softbox 50x70   
+
+
+            <section    class="equipos_luces row">
+            <section class="row"><h1 class="equipos_titulo col-md-2 col-sd-12">Luces</h1></section> 
+                
+                <img   class="equipos_imagenes col-md-2 col-sd-12" src="../images/equipos/luz" alt="luz">
+            
+                <p class="col-md-8 col-sd-12  equipo_descripciones_luces">Kit 2 Luz Continua Softbox 50x70   
                     Porta Lamparas Tripode para brindar mayor iluminacion  
                     en fotografias de estudio como retratos</p>
 
             </section>
 
-            <section    class="equipos_lente_1">
-                <div    class="equipo_titulo_img"> 
-                <h1 class="equipos_titulo">Lente Sigma</h1>
-                <img   class="equipos_imagenes" src="../images/equipos/lente 1.jpg" alt="lente 1">
-                </div>
-                <p>Lente Sigma 28mm F1.4 Dg Hsm  </p>
+            <section    class="equipos_lente_1 row">
+                <section class="row"> <h1 class="equipos_titulo">Lente Sigma</h1></section>
+                
+                <img   class="equipos_imagenes col-md-2 col-sd-12" src="../images/equipos/lente 1.jpg" alt="lente 1">
+                
+                <p class="col-md-8 col-sd-12 equipo_descripciones_lente1">Lente Sigma 28mm F1.4 Dg Hsm  </p>
                 
                 
             </section>
 
-            <section    class="equipos_lente_2">
-                <div    class="equipo_titulo_img"> 
-                <h1 class="equipos_titulo">Lente Yongnuo </h1>
-                <img   class="equipos_imagenes" src="../images/equipos/lente 2.jpg" alt="lente 2">
-                </div>
-                <p>Lente Yongnuo 35mm F/2.0 Mf Af </p>
+            <section    class="equipos_lente_2 row">
+               <section class=""> <h1 class="equipos_titulo col-md-2 col-sd-12">Lente Yongnuo </h1></section>
+                
+                <img   class="equipos_imagenes col-md-2 col-sd-12" src="../images/equipos/lente 2.jpg" alt="lente 2">
+               
+                <p class="col-md-8 col-sd-12 equipo_descripciones_lente2">Lente Yongnuo 35mm F/2.0 Mf Af </p>
 
 
             </section>
 
            
-
+        </div>
     </div>
         
-     
+</section>
 
     </main>
-    
-    <footer class="footer">   
-
-        <p  class="footer_derechos">© todos los derechos reservados</p>
-
-        <a class="footer_redes" id="instagram" href="https://www.instagram.com/reivaxac/">  
-        <img src="../images/logo facebook.jpg" alt="logo de facebook"    width="35"  height="35">
-        </a>
-
-        <a  class="footer_redes" id="linkedin" href="https://www.linkedin.com/in/xavieranzola">   
-            <img src="../images/logo linkedin.png" alt="logo linkedin"   width="35"  height="35">
-        </a>
-        
-      </footer>
-</body>
-</html>
+  <!------------------------------------COMIENZO DE FOOTER----------------------------------->
+<div class="row">
+    <div class="col">
+      <footer class=" footer  text-center ">  
+      <p  class="footer_derechos">© todos los derechos reservados</p>
+  
+      <a class="footer_redes" id="instagram" href="https://www.instagram.com/reivaxac/">  
+      <img src="../images/logo facebook.jpg" alt="logo de facebook"    width="35"  height="35">
+      </a>
+  
+      <a  class="footer_redes" id="linkedin" href="https://www.linkedin.com/in/xavieranzola">   
+          <img src="../images/logo linkedin.png" alt="logo linkedin"   width="35"  height="35">
+      </a>
+      
+    </footer>
+    </div>
+  
+   </div>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+  </html>
+  
