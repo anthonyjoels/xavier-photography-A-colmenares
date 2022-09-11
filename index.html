@@ -5,63 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./styles/styles.css">
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>xavier anzola</title>
 </head>
-<body class="body">
-    
-    <header class="header">
+<body class="container-fluid">
+
+  
         
-        <a class="header_logo" id="logo de la pagina" href="./index.html">
-            <img src="./images/logo.png" alt="logo de la pagina" >
+      <!-- INICIO DE HEADER -->
+      <section class=" row header ">
+      
+        <header class="header col-sd-6 col-md-8 text-center">
+        <a class=" header_logo" id="logo de la pagina" href="./index.html">
+            <img src="./images/logo.png" alt="logo de la pagina"    width="50px"    height="50px" >
         </a>
-        <h1 class="header_titulo">Xavier Anzola</h1>
-        <nav class="header_nav">
-            <ul class="header_links">
-                <li class="header_index"><a class="header_index" href="./index.html">index</a></li>
-                <li ><a href="./paginas/galeria.html">galeria</a></li>
-                <li><a href="./paginas/contacto.html">contacto</a></li>
-                <li><a href="./paginas/equipos.html">equipos</a></li>
-                <li><a href="./paginas/sobre mi.html">sobre mi</a></li>
-            </ul>
-            
-        </nav>
-    </header>
+    
+        <h1 class=" header_titulo">Xavier Anzola</h1>
+        </header>
+        <nav class="navbar navbar-expand-md  col-sd-6 col-md-4 text-center">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav_letra nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./paginas/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/equipos.html">equipos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/sobre mi.html">sobre mi</a>
+            </li>
+          </ul>
+       </div>
+      </nav>
+      <!-- FIN DE NAV -->
+  
+  </section>
+  <!-- FIN DE FILA -->
 
-    <main   class="cuerpo" >
-        <section  class="cuerpo_uno"> 
-            <img  class="cuerpo_img_uno" src="./images/imagenes index/img1.jpg" alt="imagen 1">
-            <img  class="cuerpo_img_uno" src="./images/imagenes index/img2.jpg" alt="imagen 2">
-            <img  class="cuerpo_img_uno" src="./images/imagenes index/img3.jpg" alt="imagen 3" >
-            
-        </section>
-        
-        <section class="cuerpo_dos">
-            <img  class="cuerpo_img_chica"  src="./images/imagenes index/imgcentral.jpg" alt="imagen central chica">
-            <img   class="cuerpo_img_chico" src="./images/imagenes index/imgchico.jpg" alt="imagenchico">
-        </section>
+    
 
-        <section    class="cuerpo_tres">   
+    <!-----------------------------------fin de header----------------------------------->
+
+    <div class="container-fluid ">
+    <section class="row">
+      <div class="col-md-4 col-sd-12">
+        <img  class="cuerpo_img_uno  " src="./images/imagenes index/img1.jpg" alt="imagen 1" > 
+          <img  class="cuerpo_img_uno " src="./images/imagenes index/img2.jpg" alt="imagen 2"> 
+          <img  class="cuerpo_img_uno " src="./images/imagenes index/img3.jpg" alt="imagen 3"> 
+      </div>
+    
+      
+      <div class="col-md-4 col-sd-12">
+        <img  class="cuerpo_img_uno"  src="./images/imagenes index/imagen chico index.jpg" alt="imagen central chica">
+        <img  class="cuerpo_img_uno"  src="./images/imagenes index/imagen 9 index.jpg" alt="imagen central chica">
+      <img class="cuerpo_img_uno"  src="./images/imagenes index/imagen chica index.jpg" alt="imagenchico">
+    </div>
+      
+    
+      <div class="col-md-4 col-sd-12 offset">
         <img  class="cuerpo_img_uno"src="./images/imagenes index/img4.jpg" alt="imagen 4" >
         <img  class="cuerpo_img_uno"src="./images/imagenes index/img5.jpg" alt="imagen 5" >
         <img  class="cuerpo_img_uno"src="./images/imagenes index/img6.jpg" alt="imagen 6" >
-        </section>
+      </div>
+    </section>
+    </div>
 
-       
-    </main>
 
-    <footer class="footer">   
 
-        <p  class="footer_derechos">© todos los derechos reservados</p>
 
-        <a class="footer_redes" id="instagram" href="https://www.instagram.com/reivaxac/">  
-        <img src="./images/logo facebook.jpg" alt="logo de facebook"    width="35"  height="35">
-        </a>
 
-        <a  class="footer_redes" id="linkedin" href="https://www.linkedin.com/in/xavieranzola">   
-            <img src="./images/logo linkedin.png" alt="logo linkedin"   width="35"  height="35">
-        </a>
-        
-      </footer>
+
+
+ 
+    
+
+
+
+
+
+     
+
+       <div class="row">
+        <div class="col">
+          <footer class=" footer  text-center ">  
+          <p  class="footer_derechos">© todos los derechos reservados</p>
+
+          <a class="footer_redes" id="instagram" href="https://www.instagram.com/reivaxac/">  
+          <img src="./images/logo facebook.jpg" alt="logo de facebook"    width="35"  height="35">
+          </a>
+  
+          <a  class="footer_redes" id="linkedin" href="https://www.linkedin.com/in/xavieranzola">   
+              <img src="./images/logo linkedin.png" alt="logo linkedin"   width="35"  height="35">
+          </a>
+          
+        </footer>
+        </div>
+
+       </div>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
 
