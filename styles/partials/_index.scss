@@ -1,0 +1,28 @@
+div{
+    section{
+        div{
+            .cuerpo_img_uno{display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                
+                width: 100%;
+                height: 10cm;
+            padding: 0%;
+            margin: 0%;
+            border: 0cm;
+            margin-bottom: 20px;
+            
+            
+            transition:trasform 2s ease-in-out;
+        &:hover{
+            transform: scale(1.1);}}
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    div{
+        section{
+            .index_grupos2y3{display: none;}
+        }
+    }
+}
