@@ -8,7 +8,7 @@
     .header_titulo{
         margin-left: 0%;
         padding-left: 10px;
-        color: $color_titulo_header;
+        color: map-get($colores,color_titulo_header);
         font-style: italic;
         text-decoration: underline;
         }

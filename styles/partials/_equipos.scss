@@ -1,0 +1,52 @@
+main{
+    section{
+        .equipo_descripciones_lente1{@include equipo_descripciones ($padding_top: 100px);}
+        .equipo_descripciones_lente2{@include equipo_descripciones ($padding_top: 60px);}
+        .equipo_descripciones_luces{@include equipo_descripciones ($padding_top: 40px);}
+        .equipo_descripciones_laptop{@include equipo_descripciones ($padding_top: 30px);}
+
+        .equipos_descripciones_camara{@include equipo_descripciones ($padding_top: 30px);
+            margin-left: 30px;
+    }
+
+
+        .equipos_imagenes{display: flex;
+            flex-direction: column;
+
+            transition:trasform 2s ease-in-out;
+                    &:hover{
+                        transform: scale(1.5);
+            margin-left: 1%;
+            margin-top: 3%;}
+        }
+    
+        
+        section{
+            .equipos_titulo{text-align: left;
+            margin-left: 15px;
+       }
+           
+           
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    main{
+        section{
+            section{
+                .equipos_titulo{text-align: center;
+                margin-left: 15px;}
+        }
+    }
+}
+}
+
+
+    
+    
+    
+    
+   
+    
+    
+    

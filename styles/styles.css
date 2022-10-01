@@ -1,3 +1,25 @@
+.contacto section div .contacto_titulos_dos, .contacto section div .contacto_titulos_uno {
+  display: flex;
+  justify-content: start;
+  font-style: solid;
+  font-size: 45px;
+  text-decoration: underline;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.contacto section section .contacto_check, .contacto section section .contacto_acepto, .contacto section section .contacto_preguntas {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
 .header {
   display: flex;
   flex-wrap: nowrap;
@@ -10,7 +32,7 @@
 .header .header_titulo {
   margin-left: 0%;
   padding-left: 10px;
-  color: rgb(67, 70, 69);
+  color: rgb(61, 65, 63);
   font-style: italic;
   text-decoration: underline;
 }
@@ -80,4 +102,145 @@ div div .footer .footer_derechos {
 }
 div div .footer .footer_redes {
   padding-left: 5px;
+}
+
+.galeria section div div div img {
+  width: 300px;
+  height: 800px;
+}
+.galeria section div h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.contacto {
+  display: flex;
+  background-image: url(../images/fondo\ contacto\ pc.jpg);
+  background-size: cover;
+  height: 20cm;
+  align-content: center;
+  justify-content: space-between;
+}
+.contacto section div .contacto_titulos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  color: white;
+}
+.contacto section div .contacto_titulos_uno {
+  padding-top: 60px;
+}
+.contacto section section .contacto_formulario {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background: hwb(0 100% 0%/0.459);
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  width: 350px;
+  height: 450px;
+}
+.contacto section section .contacto_formulario_titulo {
+  display: none;
+}
+.contacto section section div #acepto {
+  font-size: 15px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+.contacto section section div .contacto_check {
+  display: flex;
+}
+.contacto section section div .contacto_check_boton {
+  margin-top: -10px;
+  padding-left: 50px;
+  border: 2px solid #000;
+}
+.contacto section section #contacto_enviar {
+  border: 1px solid #000;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+main section .equipo_descripciones_lente1 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 100px;
+}
+main section .equipo_descripciones_lente2 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 60px;
+}
+main section .equipo_descripciones_luces {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+}
+main section .equipo_descripciones_laptop {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+main section .equipos_descripciones_camara {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+main section .equipos_imagenes {
+  display: flex;
+  flex-direction: column;
+  transition: trasform 2s ease-in-out;
+}
+main section .equipos_imagenes:hover {
+  transform: scale(1.5);
+  margin-left: 1%;
+  margin-top: 3%;
+}
+main section section .equipos_titulo {
+  text-align: left;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  main section section .equipos_titulo {
+    text-align: center;
+    margin-left: 15px;
+  }
+}
+main section .sobremi_titulo {
+  text-align: center;
+  padding-top: 6%;
+  font-size: 70px;
+}
+main section .sobremi_img {
+  padding-left: -10%;
+}
+main section div .sobremi_parrafo {
+  text-align: center;
+  font-size: 20px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  main section div .sobremi_parrafo {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 }/*# sourceMappingURL=styles.css.map */

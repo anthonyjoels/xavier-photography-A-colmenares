@@ -1,0 +1,26 @@
+%equipos_descripciones{
+    font-size: 20px; 
+    text-align: center;
+    
+}
+
+%contacto_titulos{display: flex;
+    justify-content: start;
+    font-style: solid;
+    font-size: 45px;
+    text-decoration: underline;
+    
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 15px;}
+
+%contacto_acepto_check{ display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;}
+
+   
