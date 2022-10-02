@@ -2,6 +2,9 @@
     flex-wrap: nowrap;
     flex-direction: row;
     padding-right: 0%;
+    align-content: space-around;
+    .header_nav{display: flex;
+    align-content:space-between}
 
     .header_logo{padding-top: 6px;}
 
@@ -13,7 +16,8 @@
         text-decoration: underline;
         }
         nav{
-            .header_titulo_movil{display: none;}
+            .header_titulo_movil{display: none;
+            }
             div{
                 ul{
                     .header_links{transition:trasform 2s ease-in-out;
@@ -38,10 +42,10 @@
    .header_logo{display: none;}
 
    nav{
-    .header_titulo_movil{display: flex;
+    h1{display: flex;
        
         margin-left: 0%;
-        padding-left: 25px;
+        margin-left: 55px;
         color:$color_titulo_header;
         font-style: italic;
         text-decoration: underline;}
