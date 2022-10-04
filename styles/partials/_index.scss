@@ -1,6 +1,15 @@
 div{
     section{
         div{
+            .titulo_index{display: flex;
+                 
+            color: aqua;}
+        }
+    }
+    section{
+        div{
+            text-align: center;
+                align-self: center;
             .cuerpo_img_uno{display: flex;
                 flex-direction: column;
                 flex-wrap: nowrap;

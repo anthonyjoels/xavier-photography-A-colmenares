@@ -243,4 +243,6 @@ main section div .sobremi_parrafo {
     margin-left: 0%;
     margin-right: 0%;
   }
+
+  .objet_fit{object-fit: cover}
 }/*# sourceMappingURL=styles.css.map */
