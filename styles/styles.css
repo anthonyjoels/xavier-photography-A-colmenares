@@ -20,60 +20,6 @@
   text-align: center;
 }
 
-.header {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  padding-right: 0%;
-  align-content: space-around;
-}
-.header .header_nav {
-  display: flex;
-  align-content: space-between;
-}
-.header .header_logo {
-  padding-top: 6px;
-}
-.header .header_titulo {
-  margin-left: 0%;
-  padding-left: 10px;
-  color: rgb(61, 65, 63);
-  font-style: italic;
-  text-decoration: underline;
-}
-.header nav .header_titulo_movil {
-  display: none;
-}
-.header nav div ul .header_links {
-  transition: trasform 2s ease-in-out;
-}
-.header nav div ul .header_links:hover {
-  transform: scale(1.5);
-  color: aqua;
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    width: 300px;
-    height: auto;
-    flex-wrap: wrap;
-  }
-  .header .header_titulo {
-    display: none;
-  }
-  .header .header_logo {
-    display: none;
-  }
-  .header nav .header_titulo_movil {
-    display: flex;
-    color: black;
-    flex-wrap: nowrap;
-    margin-left: 10px;
-    color: rgb(67, 70, 69);
-    font-style: italic;
-    text-decoration: underline;
-  }
-}
 div div .footer {
   display: flex;
   text-align: center;
@@ -268,5 +214,59 @@ div section div .cuerpo_img_uno:hover {
   }
   div section .index_grupos2y3 {
     display: none;
+  }
+}
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding-right: 0%;
+  align-content: space-around;
+}
+.header .header_nav {
+  display: flex;
+  align-content: space-between;
+}
+.header .header_logo {
+  padding-top: 6px;
+}
+.header .header_titulo {
+  margin-left: 0%;
+  padding-left: 10px;
+  color: rgb(61, 65, 63);
+  font-style: italic;
+  text-decoration: underline;
+}
+.header nav .header_titulo_movil {
+  display: none;
+}
+.header nav div ul .header_links {
+  transition: trasform 2s ease-in-out;
+}
+.header nav div ul .header_links:hover {
+  transform: scale(1.5);
+  color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 300px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .header .header_titulo {
+    display: none;
+  }
+  .header .header_logo {
+    display: none;
+  }
+  .header nav .header_titulo_movil {
+    display: flex;
+    color: black;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    color: rgb(67, 70, 69);
+    font-style: italic;
+    text-decoration: underline;
   }
 }/*# sourceMappingURL=styles.css.map */
