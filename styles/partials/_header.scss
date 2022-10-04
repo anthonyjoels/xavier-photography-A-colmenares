@@ -42,10 +42,12 @@
    .header_logo{display: none;}
 
    nav{
-    h1{display: flex;
-       
-        margin-left: 0%;
-        margin-left: 55px;
+    .header_titulo_movil{display: flex;
+        color: black;
+       flex-wrap: nowrap;
+
+        padding-right: 30%;
+        
         color:$color_titulo_header;
         font-style: italic;
         text-decoration: underline;}
