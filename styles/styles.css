@@ -102,6 +102,53 @@ div div .footer .footer_redes {
   padding: 5px;
 }
 
+@media screen and (max-width: 830px) {
+  .contacto {
+    display: flex;
+    background-image: url(../images/fondo\ contacto\ pc.jpg);
+    background-size: cover;
+    height: 20cm;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .contacto section div .contacto_titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: white;
+  }
+  .contacto section div .contacto_titulos_uno {
+    padding-top: 60px;
+  }
+  .contacto section section .contacto_formulario {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background: hwb(0 100% 0%/0.459);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    width: 350px;
+    height: 500px;
+  }
+  .contacto section section .contacto_formulario_titulo {
+    display: none;
+  }
+  .contacto section section div #acepto {
+    font-size: 15px;
+    padding-top: 2px;
+    padding-left: 2px;
+  }
+  .contacto section section div .contacto_check {
+    display: flex;
+  }
+  .contacto section section div .contacto_check_boton {
+    padding-left: 10px;
+  }
+}
 main section .equipo_descripciones_lente1 {
   font-size: 20px;
   text-align: center;
@@ -265,6 +312,7 @@ div section div .cuerpo_img_uno:hover {
     color: black;
     flex-wrap: nowrap;
     margin-left: 10px;
+    padding-left: 10px;
     color: rgb(67, 70, 69);
     font-style: italic;
     text-decoration: underline;

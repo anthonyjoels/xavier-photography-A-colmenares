@@ -92,7 +92,92 @@
 
 
 }
-
+@media screen and (max-width: 830px) {
+    .contacto{
+        display: flex;
+        background-image: url(../images/fondo\ contacto\ pc.jpg);
+        background-size:cover;
+        
+        height: 20cm;
+        align-content: center;
+        justify-content: space-between;
+        section{
+    
+            div{.contacto_titulos{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: left;
+                color: white;
+                
+                }
+                
+                .contacto_titulos_uno{@extend %contacto_titulos;
+                    padding-top: 60px}
+    
+                .contacto_titulos_dos{@extend %contacto_titulos;}
+            
+                }
+            section{
+                .contacto_formulario{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    
+                    background: hwb(0 100% 0% / 0.459);
+                    margin-top:  20px;
+                    padding-top: 10px;
+                    padding-left: 20px;
+                    padding-right: 0px;
+                    padding-bottom: 0px;
+                    
+                    width: 350px;
+                    height: 500px;}
+    
+    
+                    .contacto_formulario_titulo{display: none;
+                    }
+    
+                    .contacto_preguntas{
+                        @extend %contacto_acepto_check;
+                       
+                    }
+    
+    
+                    .contacto_acepto{
+            @extend %contacto_acepto_check;
+           
+        }
+    
+    
+                    .contacto_check {
+            @extend %contacto_acepto_check;
+           
+        }
+    
+        div{
+            #acepto{font-size: 15px;
+                padding-top: 2px;
+            padding-left: 2px;}
+    
+            .contacto_check{display: flex;}
+           .contacto_check_boton{
+                    padding-left: 10px;
+                }
+        }
+       
+    
+                    
+    
+            }
+        }
+        
+       
+    
+    
+    
+    }
+}
 
 
 
